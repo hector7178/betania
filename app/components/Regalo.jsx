@@ -46,7 +46,7 @@ function Regalo() {
 
   return (
     <>
-<section className="relative w-full h-[100vh] flex flex-col items-center justify-center p-2 lg:p-40 gap-10">
+<section className="relative w-full h-min-[100vh] h-fit flex flex-col items-center justify-center p-2 lg:p-40 gap-10">
     <div className='w-full h-3/4 bg-white shadow-xl rounded-lg flex flex-col items-center justify-center gap-10'>
     <h3 className='text-4xl font-bold text-red-700'> Obten un regalo al azar </h3>
         <div className=' w-full h-fit lg:h-full  flex flex-wrap gap-10 items-center justify-center gap-4'>
@@ -56,7 +56,7 @@ function Regalo() {
         premios.map((e, index)=>{
             return (
                 <div key={index} className={` w-fit h-fit p-4 rounded-lg ${index===roled? ' bg-red-200': ' bg-white'} ` }>
-                   <Image key={index} src={'/regaloCerrado.svg'} alt='regalo' style={{filter:"drop-shadow(0px 10px 5px rgb(0 0 0 / 0.4))"}} width={100} height={100} className={` w-[100px] h-[100px]` } />
+                   <Image key={index} src={'/regaloCerrado.svg'} alt='regalo' style={{filter:"drop-shadow(0px 10px 5px rgb(0 0 0 / 0.4))"}} width={100} height={100} className={` w-[80px] h-[80px]` } />
            
                 </div>
              )
