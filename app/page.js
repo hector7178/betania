@@ -22,7 +22,7 @@ export default function Home() {
       </div>
       
     </section>
-    <section className="relative w-full h-[100vh] flex flex-col md:flex-row items-center justify-center p-10 ">
+    <section className="relative w-full h-min-[100vh] h-fit flex flex-col md:flex-row items-center justify-center p-10 ">
     <p className="text-3xl text-red-700 font-bold">
       <span className="text-4xl">Feliz cumpleaños</span> mi minion favorito jajaja{'<3'}, espero que sigas cumpliendo muchos años, que tengas mucha <span className="text-4xl">Salud, Vida y Prosperidad</span>. Pido a dios que nos de un largo tiempo juntos, asi como tambien que te ayude a cumplir todas tus metas y deseos, Te quiero mucho bby!!<br/> <span className="text-2xl">Se que el nos va a permitir tener nuestro ranchito de amor en bocono jajajaj </span>   
     </p>
