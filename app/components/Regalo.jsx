@@ -48,7 +48,7 @@ function Regalo() {
     <>
 <section className="relative w-full h-min-[100vh] h-fit flex flex-col items-center justify-center p-2 lg:p-40 gap-10">
     <div className='w-full h-3/4 bg-white shadow-xl rounded-lg flex flex-col items-center justify-center gap-10'>
-    <h3 className='text-4xl font-bold text-red-700'> Obten un regalo al azar </h3>
+    <h3 className='text-4xl font-bold text-red-700 text-center'> Obten un regalo al azar </h3>
         <div className=' w-full h-fit lg:h-full  flex flex-wrap gap-10 items-center justify-center gap-4'>
         {
         premio === ''?
